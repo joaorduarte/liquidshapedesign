@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/liquidshapedesign/static/css/main.5f361e03.chunk.css",
+    "main.js": "/liquidshapedesign/static/js/main.e654c05f.chunk.js",
+    "main.js.map": "/liquidshapedesign/static/js/main.e654c05f.chunk.js.map",
+    "runtime-main.js": "/liquidshapedesign/static/js/runtime-main.550e4de7.js",
+    "runtime-main.js.map": "/liquidshapedesign/static/js/runtime-main.550e4de7.js.map",
+    "static/js/2.6356813b.chunk.js": "/liquidshapedesign/static/js/2.6356813b.chunk.js",
+    "static/js/2.6356813b.chunk.js.map": "/liquidshapedesign/static/js/2.6356813b.chunk.js.map",
+    "index.html": "/liquidshapedesign/index.html",
+    "precache-manifest.4286c09f913491cdfca1c610a4858498.js": "/liquidshapedesign/precache-manifest.4286c09f913491cdfca1c610a4858498.js",
+    "service-worker.js": "/liquidshapedesign/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/liquidshapedesign/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6356813b.chunk.js.LICENSE.txt": "/liquidshapedesign/static/js/2.6356813b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/liquidshapedesign/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.550e4de7.js",
+    "static/js/2.6356813b.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e654c05f.chunk.js"
+  ]
+}
