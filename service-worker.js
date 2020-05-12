@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/liquidshapedesign/precache-manifest.4286c09f913491cdfca1c610a4858498.js"
+  "/liquidshapedesign/precache-manifest.9cd98188c0ad3e2174066ace6bc73844.js"
 );
 
 self.addEventListener('message', (event) => {
