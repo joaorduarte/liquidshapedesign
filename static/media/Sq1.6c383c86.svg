@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Sq1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LiquidShapeD-Copy-34" transform="translate(-366.000000, -146.000000)">
+            <g id="Group-8" transform="translate(223.000000, 146.000000)">
+                <g id="Group-6" transform="translate(143.000000, 0.000000)">
+                    <g id="Sq1">
+                        <rect id="Rectangle" stroke="#1CA4E6" x="0.5" y="0.5" width="79" height="79"></rect>
+                        <text id="Lq" font-family="Roboto-Regular, Roboto" font-size="15" font-weight="normal" letter-spacing="0.605769375" fill="#1CA4E6">
+                            <tspan x="5" y="17">Lq</tspan>
+                        </text>
+                        <g id="Group" transform="translate(26.000000, 32.000000)">
+                            <path d="M7.31428571,35 C6.34010719,35 5.50764213,34.2980997 5.3430412,33.3379276 L5.3430412,33.3379276 L0.0287554904,2.33792763 C0.00961974112,2.22630243 -1.82076576e-14,2.11325353 -1.82076576e-14,2 C-1.83186799e-14,0.8954305 0.8954305,-2.41183085e-16 2,0 L2,0 L26.2559358,0 C27.3605053,-2.41183085e-16 28.2559358,0.8954305 28.2559358,2 C28.2559358,2.11325353 28.2463161,2.22630243 28.2271803,2.33792763 L22.9128946,33.3379276 C22.7482937,34.2980997 21.9158286,35 20.9416501,35 Z" id="Combined-Shape" fill="#1CA4E6"></path>
+                            <path d="M8.01863058,10 L20.3189244,10 C21.4234939,10 22.3189244,10.8954305 22.3189244,12 C22.3189244,12.1070654 22.3103271,12.213958 22.2932156,12.3196471 L19.7027394,28.3196471 C19.5459226,29.288221 18.7096346,30 17.7284482,30 L10.6091068,30 C9.6279203,30 8.79163231,29.288221 8.63481558,28.3196471 L6.04433939,12.3196471 C5.86780315,11.2292762 6.60861252,10.2022451 7.69898343,10.0257088 C7.8046726,10.0085972 7.91156516,10 8.01863058,10 Z" id="Path-2" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/liquidshapedesign/static/css/main.5136cb58.chunk.css",
-    "main.js": "/liquidshapedesign/static/js/main.9a54a9ce.chunk.js",
-    "main.js.map": "/liquidshapedesign/static/js/main.9a54a9ce.chunk.js.map",
+    "main.css": "/liquidshapedesign/static/css/main.cc769637.chunk.css",
+    "main.js": "/liquidshapedesign/static/js/main.e26bd8be.chunk.js",
+    "main.js.map": "/liquidshapedesign/static/js/main.e26bd8be.chunk.js.map",
     "runtime-main.js": "/liquidshapedesign/static/js/runtime-main.550e4de7.js",
     "runtime-main.js.map": "/liquidshapedesign/static/js/runtime-main.550e4de7.js.map",
-    "static/js/2.9f18d0e8.chunk.js": "/liquidshapedesign/static/js/2.9f18d0e8.chunk.js",
-    "static/js/2.9f18d0e8.chunk.js.map": "/liquidshapedesign/static/js/2.9f18d0e8.chunk.js.map",
+    "static/js/2.05286282.chunk.js": "/liquidshapedesign/static/js/2.05286282.chunk.js",
+    "static/js/2.05286282.chunk.js.map": "/liquidshapedesign/static/js/2.05286282.chunk.js.map",
     "index.html": "/liquidshapedesign/index.html",
-    "precache-manifest.9cd98188c0ad3e2174066ace6bc73844.js": "/liquidshapedesign/precache-manifest.9cd98188c0ad3e2174066ace6bc73844.js",
+    "precache-manifest.ce91f162219a9faff09ab37db1faee29.js": "/liquidshapedesign/precache-manifest.ce91f162219a9faff09ab37db1faee29.js",
     "service-worker.js": "/liquidshapedesign/service-worker.js",
-    "static/css/main.5136cb58.chunk.css.map": "/liquidshapedesign/static/css/main.5136cb58.chunk.css.map",
-    "static/js/2.9f18d0e8.chunk.js.LICENSE.txt": "/liquidshapedesign/static/js/2.9f18d0e8.chunk.js.LICENSE.txt",
+    "static/css/main.cc769637.chunk.css.map": "/liquidshapedesign/static/css/main.cc769637.chunk.css.map",
+    "static/js/2.05286282.chunk.js.LICENSE.txt": "/liquidshapedesign/static/js/2.05286282.chunk.js.LICENSE.txt",
+    "static/media/Dev Flow Horz.png": "/liquidshapedesign/static/media/Dev Flow Horz.804306f3.png",
     "static/media/Dev Flow.png": "/liquidshapedesign/static/media/Dev Flow.9e938632.png",
     "static/media/Flow Listing.png": "/liquidshapedesign/static/media/Flow Listing.27bda4d4.png",
     "static/media/Flow Map.png": "/liquidshapedesign/static/media/Flow Map.9b70d11a.png",
@@ -19,6 +20,9 @@
     "static/media/Goals.png": "/liquidshapedesign/static/media/Goals.b3ff1afd.png",
     "static/media/HypothesesFluid.png": "/liquidshapedesign/static/media/HypothesesFluid.087257e0.png",
     "static/media/HypothesesStructured.png": "/liquidshapedesign/static/media/HypothesesStructured.4fa4639a.png",
+    "static/media/Sq1.svg": "/liquidshapedesign/static/media/Sq1.6c383c86.svg",
+    "static/media/Sq2.svg": "/liquidshapedesign/static/media/Sq2.8a72a120.svg",
+    "static/media/Sq3.svg": "/liquidshapedesign/static/media/Sq3.50085bca.svg",
     "static/media/User Flow.png": "/liquidshapedesign/static/media/User Flow.878c654d.png",
     "static/media/User Stories.png": "/liquidshapedesign/static/media/User Stories.c529f6f5.png",
     "static/media/made-design-showroom.jpg": "/liquidshapedesign/static/media/made-design-showroom.b1e61248.jpg",
@@ -26,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.550e4de7.js",
-    "static/js/2.9f18d0e8.chunk.js",
-    "static/css/main.5136cb58.chunk.css",
-    "static/js/main.9a54a9ce.chunk.js"
+    "static/js/2.05286282.chunk.js",
+    "static/css/main.cc769637.chunk.css",
+    "static/js/main.e26bd8be.chunk.js"
   ]
 }
