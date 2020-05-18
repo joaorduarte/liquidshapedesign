@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/liquidshapedesign/static/css/main.cc769637.chunk.css",
-    "main.js": "/liquidshapedesign/static/js/main.e26bd8be.chunk.js",
-    "main.js.map": "/liquidshapedesign/static/js/main.e26bd8be.chunk.js.map",
+    "main.js": "/liquidshapedesign/static/js/main.08b795a7.chunk.js",
+    "main.js.map": "/liquidshapedesign/static/js/main.08b795a7.chunk.js.map",
     "runtime-main.js": "/liquidshapedesign/static/js/runtime-main.550e4de7.js",
     "runtime-main.js.map": "/liquidshapedesign/static/js/runtime-main.550e4de7.js.map",
     "static/js/2.05286282.chunk.js": "/liquidshapedesign/static/js/2.05286282.chunk.js",
     "static/js/2.05286282.chunk.js.map": "/liquidshapedesign/static/js/2.05286282.chunk.js.map",
     "index.html": "/liquidshapedesign/index.html",
-    "precache-manifest.ce91f162219a9faff09ab37db1faee29.js": "/liquidshapedesign/precache-manifest.ce91f162219a9faff09ab37db1faee29.js",
+    "precache-manifest.b5853953bf22ab5ced59153e0c2cb8d3.js": "/liquidshapedesign/precache-manifest.b5853953bf22ab5ced59153e0c2cb8d3.js",
     "service-worker.js": "/liquidshapedesign/service-worker.js",
     "static/css/main.cc769637.chunk.css.map": "/liquidshapedesign/static/css/main.cc769637.chunk.css.map",
     "static/js/2.05286282.chunk.js.LICENSE.txt": "/liquidshapedesign/static/js/2.05286282.chunk.js.LICENSE.txt",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.550e4de7.js",
     "static/js/2.05286282.chunk.js",
     "static/css/main.cc769637.chunk.css",
-    "static/js/main.e26bd8be.chunk.js"
+    "static/js/main.08b795a7.chunk.js"
   ]
 }

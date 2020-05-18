@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18615a27db3c1f93c3d5fd5d4a0b0ca7",
+    "revision": "ee1de0076ba3b172170deaf22817fd0d",
     "url": "/liquidshapedesign/index.html"
   },
   {
-    "revision": "d76fabecf0ec72d62c65",
+    "revision": "45797dec462132692f69",
     "url": "/liquidshapedesign/static/css/main.cc769637.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liquidshapedesign/static/js/2.05286282.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d76fabecf0ec72d62c65",
-    "url": "/liquidshapedesign/static/js/main.e26bd8be.chunk.js"
+    "revision": "45797dec462132692f69",
+    "url": "/liquidshapedesign/static/js/main.08b795a7.chunk.js"
   },
   {
     "revision": "2bf237655412efe5004a",
