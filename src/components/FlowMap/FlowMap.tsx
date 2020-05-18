@@ -1,11 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import YouTube from 'react-youtube';
 
 import { useAppContext } from '../App/App';
 import { IChapterData } from '../../interfaces/Chapter';
 import {
   Page, 
-  Block,
   BlockLeft, 
   BlockRight, 
   BlockFull
@@ -27,7 +25,7 @@ export const data : IChapterData = {
 const FlowMap : React.FC<IFlowMapProps> = ({ children }) => {
 
   const {
-    appWidth, addToTableOfContents
+    addToTableOfContents
   } = useAppContext();
 
   const [mounted, setMounted] = useState(false);
@@ -62,20 +60,20 @@ const FlowMap : React.FC<IFlowMapProps> = ({ children }) => {
       </BlockRight>
 
       <BlockLeft>
-        <img src={ImgFlowMap} alt=""/>
+        <img src={ImgFlowMap} alt="Screenshot of a flow map"/>
         <h3>The bones</h3>
         <p><b>Like a sculptor working on a new piece,</b> the size of the sculpture is dependent on the size of the original rock and by trimming down the excessive parts of the rock, the sculptor starts to define the shape and volume of the art piece, leaving the details to the end, which will turn a rock to art. The rock is our flow map, the trimming is our wireframes and the detailing is the UI.</p>
         <p>Our goal at this point is to create a big enough rock for us to trim it down, so we aim to get all the info the user needs: pictures, videos, texts, titles, buttons, banners, etc...</p>
       </BlockLeft>
 
       <BlockRight>
-        <img src={ImgShowroom} alt=""/>
+        <img src={ImgShowroom} alt="A made.com person using the large screen app at the soho showroom"/>
         <h3>The skin</h3>
         <p>The visual and interaction processes will become quicker and smarter. By abstracting content from visual, we have a period where we think about the the problem and after, we have a period to evaluate what works well together and what makes sense visually. We always cut things down at each stage of designing and the last step is always the absolute truth. As soon as we have wireframes, we don’t need to update the map with changes, because the wireframes are the truth, we only use the map to help us make decisions. Always move forward!</p>
       </BlockRight>
 
       <BlockFull>
-        <img src={ImgFlowListing} alt=""/>
+        <img src={ImgFlowListing} alt="Flow of a listing page"/>
         <h3>Type of nodes</h3>
       </BlockFull>
 

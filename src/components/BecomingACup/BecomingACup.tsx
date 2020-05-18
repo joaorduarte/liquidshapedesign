@@ -1,14 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import YouTube from 'react-youtube';
 
 import { useAppContext } from '../App/App';
 import { IChapterData } from '../../interfaces/Chapter';
 import {
   Page, 
-  Block,
   BlockLeft, 
   BlockRight, 
-  BlockRightFirst, 
   BlockFull
 } from '../App/styles';
 
@@ -57,7 +54,7 @@ const BecomingACup : React.FC<IBecomingACupProps> = ({ children }) => {
       </BlockRight>
 
       <BlockFull desktopOrder="3">
-        <img src={ImgUserFlow} alt=""/>
+        <img src={ImgUserFlow} alt="User flow"/>
       </BlockFull>
 
       <BlockFull desktopOrder="4">
@@ -78,7 +75,7 @@ const BecomingACup : React.FC<IBecomingACupProps> = ({ children }) => {
       </BlockRight>
 
       <BlockRight desktopOrder="8">
-        <img src={ImgUserStories} alt=""/>
+        <img src={ImgUserStories} alt="User stories"/>
       </BlockRight>
 
       <BlockLeft desktopOrder="7">

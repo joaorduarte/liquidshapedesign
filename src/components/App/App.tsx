@@ -151,7 +151,6 @@ export const App : React.FC<{}> = () => {
 
 
   useEffect(() => {
-    console.log(tableOfContentsItems);
     if (!mounted) {
       updateAppSize();
       setMounted(true);
@@ -190,7 +189,7 @@ export const App : React.FC<{}> = () => {
       }}>
         <ul>
           {tableOfContentsItems.map((dataVal : IChapterData) => (
-            <li><AnchorLink href={`#${dataVal.id}`}>{dataVal.menuTitle || dataVal.title}</AnchorLink></li>
+            <li key={dataVal.id}><AnchorLink href={`#${dataVal.id}`}>{dataVal.menuTitle || dataVal.title}</AnchorLink></li>
           ))}
         </ul>
       </div>
@@ -203,15 +202,15 @@ export const App : React.FC<{}> = () => {
           <AppHeader>
             <AppLogo>
               <div>
-                <img src={SvgLogo1} />
+                <img src={SvgLogo1} alt="Logo Liquid" />
                 <h1 style={{ color : AppColors.brand1 }}>Liquid</h1>
               </div>
               <div>
-                <img src={SvgLogo2} />
+                <img src={SvgLogo2} alt="Logo Shape" />
                 <h1 style={{ color : AppColors.brand2 }}>Shape</h1>
               </div>
               <div>
-                <img src={SvgLogo3} />
+                <img src={SvgLogo3} alt="Logo Design" />
                 <h1 style={{ color : AppColors.brand3 }}>Design</h1>
               </div>
             </AppLogo>
@@ -219,9 +218,9 @@ export const App : React.FC<{}> = () => {
         ) : (
           <AppHeader>
             <AppLogo>
-              <img src={SvgLogo1} />
-              <img src={SvgLogo2} />
-              <img src={SvgLogo3} />
+              <img src={SvgLogo1} alt="Logo Liquid" />
+              <img src={SvgLogo2} alt="Logo Shape" />
+              <img src={SvgLogo3} alt="Logo Design" />
             </AppLogo>
             <AppTitles>
               <h1 style={{ color : AppColors.brand1 }}>Liquid</h1>

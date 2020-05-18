@@ -1,11 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import YouTube from 'react-youtube';
 
 import { useAppContext } from '../App/App';
 import { IChapterData } from '../../interfaces/Chapter';
 import {
   Page, 
-  Block,
   BlockLeft, 
   BlockRight, 
   BlockFull
@@ -13,8 +11,6 @@ import {
 
 import ImgFluid from './images/HypothesesFluid.png';
 import ImgStructured from './images/HypothesesStructured.png';
-// import ImgFlowMap from './images/Flow Map.png';
-// import ImgShowroom from './images/made-design-showroom.jpg';
 
 interface IHypothesesProps {
   children ?: React.ReactNode
@@ -58,7 +54,7 @@ const Hypotheses : React.FC<IHypothesesProps> = ({ children }) => {
        </BlockRight>
 
        <BlockLeft>
-        <img src={ImgStructured} alt=""/>
+        <img src={ImgStructured} alt="Screenshot of structured hypotheses"/>
         <h3>User + Goal + Because</h3>
         <p>Usually, I use this structure for my hypothesis, as it is clear which agent is at play on which moment.</p>
         <p><b>User</b> is the target that has the goal that we are defining.<br/>
@@ -72,7 +68,7 @@ const Hypotheses : React.FC<IHypothesesProps> = ({ children }) => {
       </BlockLeft>
 
       <BlockRight>
-        <img src={ImgFluid} alt=""/>
+        <img src={ImgFluid} alt="Screenshot of fluid hypotheses"/>
         <h3>Fluid</h3>
         <p>Brainstorm meetings or any kind of creative meetings bring lots of ideas to the project, we need a quick way to write and discuss them, we also need to define how we can validate them or prove them wrong. Since the time for a meeting is fixed, I usually take shortcuts to avoid stopping the creative momentum of the team. The person who is writing should be the one who will look at this in the end, otherwise we risk not understanding what is written.</p>
         <p>I focus mainly on getting the user goal right, with overall agreement with what was written.</p>

@@ -1,14 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import YouTube from 'react-youtube';
 
 import { useAppContext } from '../App/App';
 import { IChapterData } from '../../interfaces/Chapter';
 import {
   Page, 
-  Block,
   BlockLeft, 
   BlockRight,
-  BlockRightFirst,
   BlockFull
 } from '../App/styles';
 
@@ -64,7 +61,7 @@ const EnterTheFlows : React.FC<IEnterTheFlowsProps> = ({ children }) => {
         <p><b>Remove the creation noise.</b> Abstract from any visual cue, anything that distracts you from the problem. We want to get a clear view of the problem and all its connections.</p>
         <p><b>Like water filling the cracks of a rock,</b> to read a flow start from the left furthest node and move to the top next node. Follow the full flow of each node.<br/>
           Then, move down on the previous interception node and continue.</p>
-        <img src={ImgFlowBasic} alt=""/>
+        <img src={ImgFlowBasic} alt="Screenshot of a basic flow"/>
       </BlockLeft>
 
        <BlockRight>

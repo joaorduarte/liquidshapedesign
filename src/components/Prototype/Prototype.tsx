@@ -39,9 +39,9 @@ const Prototype : React.FC<IPrototypeProps> = ({ children }) => {
 
       <BlockFull>
         {(appWidth && appWidth < 768 ) ? (
-          <img src={ImgDevFlow} />
+          <img src={ImgDevFlow} alt="Illustration of the design cycle" />
         ) : (
-          <img src={ImgDevFlowHorz} />
+          <img src={ImgDevFlowHorz} alt="Illustration of the design cycle" />
         )}
       </BlockFull>
 

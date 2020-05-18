@@ -20,7 +20,7 @@ export const data : IChapterData = {
 const ChooseYourTool : React.FC<IChooseYourToolProps> = ({ children }) => {
 
   const {
-    appWidth, addToTableOfContents
+    addToTableOfContents
   } = useAppContext();
 
   const [mounted, setMounted] = useState(false);
@@ -47,7 +47,7 @@ const ChooseYourTool : React.FC<IChooseYourToolProps> = ({ children }) => {
       </BlockLeft>
 
       <BlockRightFirst>
-        <img src={ImgTool} alt=""/>
+        <img src={ImgTool} alt="Screenshot of the Mindmeister website"/>
       </BlockRightFirst>
 
       {children}

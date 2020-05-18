@@ -20,7 +20,7 @@ export const data : IChapterData = {
 const ProblemDeconstruction : React.FC<IProblemDeconstructionProps> = ({ children }) => {
 
   const {
-    appWidth, addToTableOfContents
+    addToTableOfContents
   } = useAppContext();
 
   const [mounted, setMounted] = useState(false);
@@ -74,7 +74,7 @@ const ProblemDeconstruction : React.FC<IProblemDeconstructionProps> = ({ childre
       </BlockRight>
 
       <BlockRight desktopOrder="7">
-        <img src={ImgGoals} alt=""/>
+        <img src={ImgGoals} alt="Screenshot of a flow focused on the goals"/>
       </BlockRight>
 
       <BlockLeft desktopOrder="6">
