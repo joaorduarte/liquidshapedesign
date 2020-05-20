@@ -9,12 +9,15 @@ export interface IAppColors {
 }
 
 
-export const AppColors = {
+export const AppColors : IAppColors = {
   text : "#22231E",
   brand1 : "#2CB4F7",
   brand2 : "#2E80FD",
   brand3 : "#5F5CF2"
 }
+
+
+export const ShareIconSize : number = 40;
 
 
 export const AppContainer = styled.div`
@@ -24,6 +27,54 @@ export const AppContainer = styled.div`
 
   width : 100%;
   max-width : 1400px;
+`;
+
+
+export const AppMenu = styled.menu`
+  margin : 0;
+  padding : 0;
+  position : fixed;
+  width : 100%;
+  height : 100vh;
+  background-color : #FFFFFF;
+`;
+
+
+export const ShareContainer = styled.div`
+  display : flex;
+  flex-direction : row;
+  justify-content : center;
+
+  margin : 0;
+  padding : 0;
+
+  * {
+    padding : 8px;
+  }
+
+  @media (min-width: 768px) {
+    
+  }
+`;
+
+
+export const AnchorContainer = styled.div`
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+
+  height : 80%;
+
+  margin : 0;
+  padding : 0;
+
+  * {
+    padding : 8px;
+  }
+
+  @media (min-width: 768px) {
+    
+  }
 `;
 
 
