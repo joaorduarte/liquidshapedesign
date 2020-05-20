@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Sq2_Menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LiquidShapeD-Copy-35" transform="translate(-456.000000, -6.000000)">
+            <g id="Group-10" transform="translate(404.000000, 6.000000)">
+                <g id="Sq2_Menu" transform="translate(52.000000, 0.000000)">
+                    <rect id="Rectangle-Copy" stroke="#2E80FD" x="0.5" y="0.5" width="45" height="45"></rect>
+                    <g id="Group-Copy" transform="translate(15.000000, 5.000000)">
+                        <path d="M1.67999997,36 C0.752161607,36 1.13627428e-16,35.2478384 0,34.32 L0,34.32 L0,19 C0,14.7427822 2,11.4094488 6,9 L6,9 L6,3 L5.83999999,3 C5.3760808,3 5,2.6239192 5,2.16000001 L5,2.16000001 L5,1.5 C5,0.671572875 5.67157288,1.52179594e-16 6.5,0 L6.5,0 L10.5,0 C11.3284271,1.52179594e-16 12,0.671572875 12,1.5 L12,2.16000001 C12,2.6239192 11.6239192,3 11.16,3 L11,3 L11,9 C15,11.4094488 17,14.7427822 17,19 L17,34.32 L17,34.32 C17,35.2478384 16.2478384,36 15.32,36 Z" id="Combined-Shape" fill="#2E80FD"></path>
+                        <path d="M5.67999997,17 L11.32,17 C12.2478384,17 13,17.7521616 13,18.68 L13,30.32 C13,31.2478384 12.2478384,32 11.32,32 L5.67999997,32 C4.75216161,32 4,31.2478384 4,30.32 L4,18.68 C4,17.7521616 4.75216161,17 5.67999997,17 Z" id="Path-2" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

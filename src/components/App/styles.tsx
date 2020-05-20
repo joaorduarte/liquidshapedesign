@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { TopBarHeight } from '../Menu/styles';
+
 
 export interface IAppColors {
   text : string,
@@ -30,62 +32,14 @@ export const AppContainer = styled.div`
 `;
 
 
-export const AppMenu = styled.menu`
-  margin : 0;
-  padding : 0;
-  position : fixed;
-  width : 100%;
-  height : 100vh;
-  background-color : #FFFFFF;
-`;
-
-
-export const ShareContainer = styled.div`
-  display : flex;
-  flex-direction : row;
-  justify-content : center;
-
-  margin : 0;
-  padding : 0;
-
-  * {
-    padding : 8px;
-  }
-
-  @media (min-width: 768px) {
-    
-  }
-`;
-
-
-export const AnchorContainer = styled.div`
-  display : flex;
-  flex-direction : column;
-  justify-content : space-around;
-
-  height : 80%;
-
-  margin : 0;
-  padding : 0;
-
-  * {
-    padding : 8px;
-  }
-
-  @media (min-width: 768px) {
-    
-  }
-`;
-
-
 export const AppHeader = styled.header`
   display : flex;
   flex-direction : column;
   justify-content : center;
   align-items : center;
   width : 100%;
-  padding-top : 80px;
-  padding-bottom : 80px;
+  padding-top : 120px;
+  padding-bottom : 120px;
 
   @media (min-width: 768px) {
     padding-top : 120px;
@@ -149,6 +103,7 @@ export const Page = styled.section`
   flex-direction : column;
   justify-content : left;
   flex-wrap : wrap;
+  padding-bottom : 60px;
 
   width : 100%;
 
