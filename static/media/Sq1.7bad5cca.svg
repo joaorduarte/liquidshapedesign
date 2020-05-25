@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Sq1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LiquidShapeD-Copy-35" transform="translate(-366.000000, -146.000000)">
+            <g id="Group-8" transform="translate(223.000000, 146.000000)">
+                <g id="Group-6" transform="translate(143.000000, 0.000000)">
+                    <g id="Sq1">
+                        <rect id="Rectangle" stroke="#1CA4E6" x="0.5" y="0.5" width="79" height="79"></rect>
+                        <text id="Lq" font-family="Roboto-Regular, Roboto" font-size="15" font-weight="normal" letter-spacing="0.605769375" fill="#1CA4E6">
+                            <tspan x="5" y="17">Lq</tspan>
+                        </text>
+                        <g id="Group" transform="translate(26.000000, 32.000000)" fill="#1CA4E6">
+                            <path d="M7.31428571,35 C6.34010719,35 5.50764213,34.2980997 5.3430412,33.3379276 L5.3430412,33.3379276 L0.0287554904,2.33792763 C0.00961974112,2.22630243 -1.82076576e-14,2.11325353 -1.82076576e-14,2 C-1.83186799e-14,0.8954305 0.8954305,-2.41183085e-16 2,0 L2,0 L26.2559358,0 C27.3605053,-2.41183085e-16 28.2559358,0.8954305 28.2559358,2 C28.2559358,2.11325353 28.2463161,2.22630243 28.2271803,2.33792763 L22.9128946,33.3379276 C22.7482937,34.2980997 21.9158286,35 20.9416501,35 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
