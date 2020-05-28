@@ -22,13 +22,16 @@ import FlowMap from '../FlowMap/FlowMap';
 import Prototype from '../Prototype/Prototype';
 import Thanks from '../Thanks/Thanks';
 import Menu from '../Menu/Menu';
+import Share from '../Share/Share';
 
 import {
   AppContainer,
   AppColors,
   AppTitles,
   AppLogo,
-  AppHeader
+  AppHeader,
+  AppIntro,
+  AppEnd
 } from './styles';
 
 import { GlobalStyleCss } from './globalStyle';
@@ -120,7 +123,7 @@ export const App : React.FC<{}> = () => {
       }}
     > 
 
-      <Menu breakpoint={330} />
+      <Menu breakpoint={350}/>
 
       <AppContainer 
         ref={containerDom}
@@ -159,6 +162,12 @@ export const App : React.FC<{}> = () => {
           </AppHeader>
         )}
 
+        <AppIntro>
+          <h2>{ appQuote }</h2>
+          <Share />
+          <a href="https://www.linkedin.com/in/joão-duarte-7a4a6910">by JD</a>
+        </AppIntro>
+
         <BeLikeWater />
 
         <EmptyYourMind />
@@ -180,6 +189,8 @@ export const App : React.FC<{}> = () => {
         <Thanks />
 
       </AppContainer>
+
+      <AppEnd />
 
       <GlobalStyle/>
 

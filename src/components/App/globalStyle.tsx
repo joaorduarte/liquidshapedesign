@@ -11,10 +11,9 @@ export const GlobalStyleCss : string = `
     margin: 0;
     padding: 0;
     font-family: "Raleway" ,sans-serif;
-    font-weight : 400;
   }
 
-  p, li {
+  p, a, li {
     line-height : 1.8em;
     letter-spacing : 0.05em; 
     margin : 0;
@@ -29,6 +28,13 @@ export const GlobalStyleCss : string = `
     @media (min-width: 768px) {
       font-size : 1em;
     }
+  }
+
+  a {
+    letter-spacing : 0.05em;
+    color : ${AppColors.text};
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   ul {
@@ -51,6 +57,10 @@ export const GlobalStyleCss : string = `
     letter-spacing : 0.15em;
     text-transform : uppercase;
     font-weight : 100;
+
+    @media (min-width: 768px) {
+      font-size : 2.8em;
+    }
   }
 
 

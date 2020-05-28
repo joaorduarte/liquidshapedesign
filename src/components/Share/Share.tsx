@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 import {
   FacebookIcon,
@@ -19,7 +19,6 @@ import {
 } from './styles';
 
 import { 
-  useAppContext,
   appUrl, appTitle, appQuote
 } from '../App/App';
 

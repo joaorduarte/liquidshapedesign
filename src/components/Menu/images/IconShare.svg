@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>IconShare</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="LiquidShapeD-Copy-35" transform="translate(-679.000000, -15.000000)" stroke="#00A5EC" stroke-width="2">
+            <g id="IconShare" transform="translate(680.000000, 17.000000)">
+                <polyline id="Path-14" points="19 6 12 0 5 6"></polyline>
+                <path d="M18,12 L20.5,12 C21.9426382,12 23.1738292,13.0429753 23.4109975,14.4659848 L24.4178005,20.506803 C24.6901857,22.141114 23.5861267,23.6867966 21.9518157,23.9591818 C21.7888214,23.9863475 21.6238613,24 21.4586187,24 L3.26039864,24 C1.6035444,24 0.260398645,22.6568542 0.260398645,21 C0.260398645,20.9168468 0.263855872,20.8337295 0.27076137,20.7508636 L0.7923863,14.4913644 C0.909736227,13.0831653 2.08691976,12 3.5,12 L6,12" id="Path" stroke-linejoin="round"></path>
+                <line x1="12" y1="2" x2="12" y2="18" id="Line-2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

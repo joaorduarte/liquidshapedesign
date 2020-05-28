@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { TopBarHeight } from '../Menu/styles';
-
 
 export interface IAppColors {
   text : string,
@@ -28,7 +26,6 @@ export const AppContainer = styled.div`
   margin : auto;
 
   width : 100%;
-  max-width : 1400px;
 `;
 
 
@@ -38,12 +35,12 @@ export const AppHeader = styled.header`
   justify-content : center;
   align-items : center;
   width : 100%;
-  padding-top : 120px;
-  padding-bottom : 120px;
+  padding-top : 140px;
+  padding-bottom : 140px;
 
   @media (min-width: 768px) {
-    padding-top : 120px;
-    padding-bottom : 120px;
+    padding-top : 180px;
+    padding-bottom : 180px;
   }
 `;
 
@@ -63,7 +60,7 @@ export const AppTitles = styled.div`
   @media (min-width: 768px) {
 
     h1 {
-      padding-top : 30px;
+      padding-top : 50px;
     }
   }
 `;
@@ -103,7 +100,7 @@ export const Page = styled.section`
   flex-direction : column;
   justify-content : left;
   flex-wrap : wrap;
-  padding-bottom : 60px;
+  padding-bottom : 100px;
 
   width : 100%;
 
@@ -112,15 +109,15 @@ export const Page = styled.section`
   }
 `;
 
+
 interface IBlockProps {
   desktopOrder ?: string
 }
 
-
-
 export const Block = styled.div<IBlockProps>`
   display : flex;
   flex-direction : column;
+  flex-wrap : wrap;
   
   width : 100%;
   margin-bottom : 0;
@@ -144,29 +141,25 @@ export const BlockFull = styled(Block)`
 
   width : 100%;
 
-  p, li {
+
+  p, li, h2, h3 {
     padding-bottom : 1.2em;
     width : 84%;
     margin-left : 10%;
     margin-right : 6%;
   }
 
-  img {
-    width : 100%;
-  }
-
   h2 {
-    padding-bottom : 0.8em;
-    width : 84%;
-    margin-left : 10%;
-    margin-right : 6%;
+    padding-bottom : 35px;
   }
 
   h3 {
-    padding-bottom : 0.6em;
-    width : 84%;
-    margin-left : 10%;
-    margin-right : 6%;
+    padding-bottom : 20px;
+  }
+
+  img {
+    width : 100%;
+    padding-bottom : 30px;
   }
 
   @media (min-width : 850px) {
@@ -186,15 +179,25 @@ export const BlockFull = styled(Block)`
     margin-left : 7%;
     margin-right : 7%;
 
-    img {
-      width : 118%;
-      margin-left : -9%;
+    p, li, h2, h3 {
+      padding-bottom : 1.2em;
+      width : 100%;
+      margin-left : 0;
       margin-right : 0;
+    }
+
+    img {
+      width : 102%;
+      margin : 0;
+      margin-left : -1%;
+      padding-bottom : 30px;
     }
   }
 `;
 
 const imgMarginSettings = `
+  padding-bottom : 40px;
+
   img {
     width : 110%;
     margin : 0;
@@ -204,10 +207,12 @@ const imgMarginSettings = `
 
 export const BlockLeft = styled(BlockFull)`
 
+  padding-bottom : 0;
+
   @media (min-width : 1060px) {
-    width : 39%;
+    width : 37%;
     margin-left : 7%;
-    margin-right : 4%;
+    margin-right : 5%;
 
     ${imgMarginSettings}
   }
@@ -215,9 +220,11 @@ export const BlockLeft = styled(BlockFull)`
 
 export const BlockRight = styled(BlockFull)`
 
+  padding-bottom : 40px;
+
   @media (min-width : 1060px) {
-    width : 39%;
-    margin-left : 4%;
+    width : 37%;
+    margin-left : 5%;
     margin-right : 7%;
 
     ${imgMarginSettings}
@@ -226,7 +233,84 @@ export const BlockRight = styled(BlockFull)`
 
 export const BlockRightFirst = styled(BlockRight)`
 
-  @media (max-width: 991px) {
+  @media (max-width: 1060px) {
     order : -1;
   }
+`;
+
+
+export const AppIntro = styled(BlockLeft)`
+  display : flex;
+  flex-direction : column;
+  flex-wrap : wrap;  
+
+  margin-bottom : 100px;
+
+  h2 {
+    padding-bottom : 20px;
+    order : 0;
+
+    font-size : 2em;
+  }
+
+  a {
+    width : auto;
+    padding : 0;
+    margin-left : 10%;
+    order : 1;
+  }
+
+  div {
+    margin : 0;
+    margin-left : calc(10% - 10px);
+    margin-top : 30px;
+    order : 2;
+  }
+
+
+  @media (min-width: 768px) {
+    flex-direction : row;
+
+    h2 {
+      padding-bottom : 30px;
+      order : 0;
+      font-size : 2.1em;
+    }
+
+    a {
+      margin-left : 20px;
+      padding-top : 14px;
+      order : 2;
+      font-size : 1.1em;
+    }
+
+    div {
+      margin-left : calc(10% - 10px);
+      margin-top : 0;
+      order : 1;
+    }
+  }
+
+
+  @media (min-width: 1060px) {
+    div {
+      margin-left : -10px;
+    }
+  }
+`;
+
+
+export const BlockEnd = styled(AppIntro)`
+
+  div {
+    margin-top : 0;
+  }
+`;
+
+
+export const AppEnd = styled.div`
+
+  width : 100vw;
+  height : 120px;
+  background-color : ${AppColors.brand1};
 `;
