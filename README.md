@@ -1,5 +1,12 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Publish to github pages:
+
+npm run build
+
+Create a file in the gh-pages root:
+  CNAME
+    www.liquidshapedesign.com
+
+
 
 ## Available Scripts
 
