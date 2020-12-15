@@ -1,6 +1,6 @@
 ## Publish to github pages:
 
-npm run build
+npm run deploy
 
 Create a file in the gh-pages root:
   CNAME
